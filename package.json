@@ -2,6 +2,7 @@
   "name": "rickandmorty-server",
   "version": "0.0.1",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
