@@ -13,7 +13,7 @@ app.use(cors())
 app.use('/login', loginRoutes)
 app.use('/avatar', avatarRoutes)
 
-app.get('s3Url', async (req, res) => {
+app.get('/s3Url', async (req, res) => {
     const url = await generateUploadUrl()
     res.send({ url })
 })
